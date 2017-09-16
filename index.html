@@ -344,7 +344,7 @@
             ChatUserNames=ChatUserNames.concat(userChatListJson);
         }
     }
-    var userMsgListJson=["Just got my code!!","Niceeeeeee","thank you for this","wwwoooooowwww destiny2 is niceeeee","LMAO!!!!","thx for the code!","OMG!!! This works!!!!","just finished installing","Love this!","hahahahaha nice","Big file but got it now","got my code after i did the survey","can i use right click to download in the email?","amaaaaaazing!!!!!!","w00t code in email!","oh my god! gonna let my brother know he will freak out lol","this is an awesome game!","love it","hahahahahahaaaaa got my code","Nice guys, thank you for this, love you","Destiny 2 rocks!","man this game is the shit!","wooohoooooooo just finished the download","why do i need to do a survey?","YES!!!! Got Destiny 2!!!!","I love this site, didn't think it would work but it did","im playing right now! awesome!","i can NOT believe this worked!","Destiny 2 is the BEST GAME EVER!","Love the graphics on the game","waayyyyy better compared to the previous version","oh my god! LOL","no words! love it!","i am going to play now","bye guys, going to play Destiny 2","see you all later!","what the hell? i just got my d\/l! how do they do this????","amazaing thx!!!!","THIS IS THE BEST","love the game","awesome graphics","Destiny 2 is by far the best game ever","Great work guys!","Thaaaaaaaaaank youuuuuuuu"];
+    var userMsgListJson=["Just got my code!!","Niceeeeeee","thank you for this","wwwoooooowwww destiny2 is niceeeee","LMAO!!!!","thx for the code!","OMG!!! This works!!!!","just finished installing","Love this!","hahahahaha nice","Big file but got it now","got my code after i did the survey","can i use right click to download in the email?","amaaaaaazing!!!!!!","w00t code in email!","oh my god! gonna let my brother know he will freak out lol","this is an awesome game!","love it","hahahahahahaaaaa got my code","Nice guys, thank you for this, love you","Destiny 2 rocks!","man this game is the shit!","wooohoooooooo just finished the download","why do i need to do a survey?","YES!!!! Got my code!!!!","I love this site, didn't think it would work but it did","im playing right now! awesome!","i can NOT believe this worked!","Destiny 2 is the BEST GAME EVER!","Love the graphics on the game","waayyyyy better compared to the previous version","oh my god! LOL","no words! love it!","i am going to play now","bye guys, going to play Destiny 2","see you all later!","what the hell? i just got my d\/l! how do they do this????","amazaing thx!!!!","THIS IS THE BEST","love the game","awesome graphics","Destiny 2 is by far the best game ever","Great work guys!","Thaaaaaaaaaank youuuuuuuu"];
     var userMsgListOverride=parseInt("1");
     if(typeof userMsgListJson=="object" && userMsgListJson.length>0){
         if(userMsgListOverride==1){
@@ -472,8 +472,8 @@
             out.scrollTop = out.scrollHeight - out.clientHeight;
     }
     startChat();
-    var min_chat_delay=parseInt("3600");
-    var max_chat_delay=parseInt("10200");
+    var min_chat_delay=parseInt("8600");
+    var max_chat_delay=parseInt("60200");
     function startChat(){
         if(enable_chat==0)return false;
         var username=randomUsername();
